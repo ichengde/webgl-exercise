@@ -3,9 +3,14 @@
         "target": "es5",
         "sourceMap": true,
         "allowJs": true,
-        "lib": ["dom", "es2015.promise", "es5", "es2017"],
+        "lib": [
+            "dom",
+            "es2015.promise",
+            "es5",
+            "es2017"
+        ],
+        "outDir": "./ts-out",
         "newLine": "LF",
         "strict": true
     }
 }
-
